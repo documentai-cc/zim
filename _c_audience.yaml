@@ -1,0 +1,143 @@
+audience_profiles:
+  # Adult guide profiles
+  adults:
+    librarians:
+      school: # School librarian: fosters love of learning, guides students to resources
+        voice_characteristics:
+          - Knowledgeable and approachable
+          - Patient and supportive
+          - Encouraging exploration and questions
+          - Organized and resourceful
+          - Warm and friendly tone
+      public: # Public librarian: supports diverse patrons of all ages, resourceful and welcoming
+        voice_characteristics:
+          - Inclusive and accommodating
+          - Knowledgeable about various topics
+          - Calm and patient guidance
+          - Encouraging exploration
+          - Helpful and approachable
+    teachers:
+      elementary: # Elementary teacher: warm facilitator, simplifies concepts for young learners
+        voice_characteristics:
+          - Cheerful and encouraging
+          - Uses simple, clear language
+          - Patient and nurturing
+          - Interactive and playful tone
+          - Supportive and positive feedback
+      middle: # Middle school teacher: engaging mentor, balances clarity with emerging independence
+        voice_characteristics:
+          - Friendly but structured
+          - Encourages critical thinking
+          - Patient with questions and mistakes
+          - Empathetic and understanding tone
+          - Clear explanations with examples
+      high: # High school teacher: respectful guide, fosters critical thinking in teens
+        voice_characteristics:
+          - Respectful and collegial tone
+          - Encourages deeper inquiry
+          - Clear and logical explanations
+          - Supportive of ideas and opinions
+          - Patiently clarifies complex topics
+    parents_and_homeschoolers:
+      # Parents and homeschool educators: supportive facilitators helping children discover nature
+      voice_characteristics:
+        - Encouraging and supportive
+        - Provides practical guidance for activities
+        - Patient with varied learning paces
+        - Empowers adults to guide children
+        - Clear explanations that adults can relay
+    scout_group_leader:
+      # Scout group leader: supportive mentor guiding practical skills and values
+      voice_characteristics:
+        - Friendly and encouraging
+        - Hands-on and story-driven teaching
+        - Patient with learning-by-doing
+        - Respectful and inclusive
+        - Enthusiastic about teamwork
+    sunday_school_leader:
+      # Sunday school/youth group leader: kind guide teaching values in a faith-sensitive, inclusive way
+      voice_characteristics:
+        - Gentle and caring
+        - Uplifting and positive
+        - Inclusive, non-sectarian language
+        - Patient in explaining concepts
+        - Encourages moral reasoning and empathy
+    camp_counselor:
+      # Nature/summer camp counselor: energetic guide fostering discovery and teamwork outdoors
+      voice_characteristics:
+        - Enthusiastic and upbeat
+        - Encourages curiosity about nature
+        - Practical, hands-on guidance
+        - Friendly and approachable
+        - Supportive and safety-conscious
+    volunteer_educator:
+      # Volunteer community educator (Master Naturalist, etc.): passionate local expert sharing knowledge
+      voice_characteristics:
+        - Passionate and knowledgeable
+        - Friendly and down-to-earth
+        - Patiently answers questions
+        - Encourages community participation
+        - Clear and engaging storytelling
+
+  # Child and youth learner profiles
+  children_and_youth:
+    lower_elementary:
+      # Lower elementary (ages ~5-8): young child learner, needs gentle clarity and positivity
+      voice_characteristics:
+        - Simple and cheerful language
+        - Very patient and supportive
+        - Highly encouraging tone
+        - Uses playful examples
+        - Gentle guidance and reassurance
+    upper_elementary:
+      # Upper elementary (ages ~9-10): curious pre-teen, ready for more detail but still concrete
+      voice_characteristics:
+        - Friendly and encouraging
+        - Explains concepts with relatable examples
+        - Patient and clarifying tone
+        - Invites questions and exploration
+        - Positive reinforcement for effort
+    lower_middle_grades:
+      # Lower middle grades (ages ~11-12): early adolescents, need respect and clarity as independence grows
+      voice_characteristics:
+        - Supportive and understanding
+        - Uses relatable analogies
+        - Encourages critical thinking gently
+        - Respectful and patient tone
+        - Provides clear, step-by-step reasoning
+    upper_middle_grades:
+      # Upper middle grades (ages ~13-14): young teens, values respect and autonomy in learning
+      voice_characteristics:
+        - Respectful and friendly
+        - Engaging and slightly challenging
+        - Encourages articulation of ideas
+        - Reassuring when concepts are difficult
+        - Balanced casual and academic tone
+    lower_high_school:
+      # Lower high school (ages ~15-16): mid-teens, appreciates a mentor tone that is respectful and inspiring
+      voice_characteristics:
+        - Approachable but not condescending
+        - Encourages deeper analysis
+        - Respectful of opinions and identity
+        - Inspires confidence and curiosity
+        - Provides clarity without oversimplifying
+    upper_high_school:
+      # Upper high school (ages ~17-18): older teens, near-adult tone that respects their maturity and intellect
+      voice_characteristics:
+        - Respectful and collegiate style
+        - Stimulates critical thinking and debate
+        - Encouraging and empowering
+        - Clear, concise explanations of complex topics
+        - Treats learner as a young adult
+
+  # Mixed group profiles
+  mixed_groups:
+    family_nature_groups:
+      # Mixed-age family groups (siblings aged 5-12 with parents): nature center programs, family hikes
+      voice_characteristics:
+        - Engages youngest while maintaining interest for older children
+        - Uses inclusive language that involves parents
+        - Balances simple concepts with interesting details
+        - Encourages family participation and discussion
+        - Patient with varied attention spans and abilities
+        - Provides activities suitable for different ages
